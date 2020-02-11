@@ -1,0 +1,38 @@
+    openapi: 3.0.0
+    info:
+      title: Rebuild API
+      description: Rebuilds files to a standard of known good.
+      version: 0.1.9
+    servers:
+      - url: https://xugc5ib648.execute-api.eu-west-1.amazonaws.com/Prod/
+        description: AWS
+    paths:
+      /api/Rebuild:
+        post:
+          summary: Returns a rebuilt copy of the given file.
+          description: Returns a copy of the file rebuilt by the Glasswall Engine.
+          parameters:
+            - in: header
+              name: x-api-key
+              schema:
+                type: string
+              required: true
+          requestBody:
+            content:
+              "multipart/form-data":
+                schema:
+                  required:
+                     file
+                  type: object
+                  properties:
+                    file:
+                      type: string
+                      format: binary
+                encoding:
+                  file:
+                    style: form
+          responses:
+            '200':    # status code
+              description: Success
+            '400':
+              description: Bad Request
