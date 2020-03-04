@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/product-saas-rebuild/static/css/main.4826449c.chunk.css",
+    "main.js": "/product-saas-rebuild/static/js/main.eeb4fc10.chunk.js",
+    "main.js.map": "/product-saas-rebuild/static/js/main.eeb4fc10.chunk.js.map",
+    "runtime-main.js": "/product-saas-rebuild/static/js/runtime-main.150f0b04.js",
+    "runtime-main.js.map": "/product-saas-rebuild/static/js/runtime-main.150f0b04.js.map",
+    "static/css/2.e4355e26.chunk.css": "/product-saas-rebuild/static/css/2.e4355e26.chunk.css",
+    "static/js/2.0ec42f12.chunk.js": "/product-saas-rebuild/static/js/2.0ec42f12.chunk.js",
+    "static/js/2.0ec42f12.chunk.js.map": "/product-saas-rebuild/static/js/2.0ec42f12.chunk.js.map",
+    "index.html": "/product-saas-rebuild/index.html",
+    "precache-manifest.7c388a53e40e4e65ea0258b67cec6503.js": "/product-saas-rebuild/precache-manifest.7c388a53e40e4e65ea0258b67cec6503.js",
+    "service-worker.js": "/product-saas-rebuild/service-worker.js",
+    "static/css/2.e4355e26.chunk.css.map": "/product-saas-rebuild/static/css/2.e4355e26.chunk.css.map",
+    "static/css/main.4826449c.chunk.css.map": "/product-saas-rebuild/static/css/main.4826449c.chunk.css.map",
+    "static/media/api.yaml": "/product-saas-rebuild/static/media/api.d089592c.yaml",
+    "static/media/App.css": "/product-saas-rebuild/static/media/roboto-regular-webfont.d96d07c1.woff2",
+    "static/media/logo.svg": "/product-saas-rebuild/static/media/logo.f2df34b5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.150f0b04.js",
+    "static/css/2.e4355e26.chunk.css",
+    "static/js/2.0ec42f12.chunk.js",
+    "static/css/main.4826449c.chunk.css",
+    "static/js/main.eeb4fc10.chunk.js"
+  ]
+}
