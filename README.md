@@ -12,7 +12,7 @@
 
 ## Getting Started
 
-- In order to get started with this product, ensure you have a valid api key, which can be [purchased from on our webstore](https://glasswall-store.com/collections/saas/products/file-type-detection).
+- In order to get started with this product, ensure you have a valid api key, which can be [purchased from on our webstore](https://glasswall-store.com/collections/saas/products/rebuild-service).
 - Browse the site, see "How to run locally" if needed
 - On this page click on the 'Try it out' button, this will allow you to configure the request.
 - Enter the key you received when purchasing the product into x-api-key field
