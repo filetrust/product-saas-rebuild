@@ -21,16 +21,8 @@
             content:
               "multipart/form-data":
                 schema:
-                  required:
-                     file
-                  type: object
-                  properties:
-                    file:
-                      type: string
-                      format: binary
-                encoding:
-                  file:
-                    style: form
+                  type: string
+                  format: binary
           responses:
             '200':    # status code
               description: Success
