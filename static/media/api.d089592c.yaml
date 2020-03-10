@@ -4,10 +4,10 @@
       description: Rebuilds files to a standard of known good.
       version: 0.1.9
     servers:
-      - url: https://xugc5ib648.execute-api.eu-west-1.amazonaws.com/Prod/
+      - url: https://24dyhnzh5h.execute-api.eu-west-2.amazonaws.com/Beta/az/
         description: AWS
     paths:
-      /api/Rebuild:
+      /fileanalysis/analyse:
         post:
           summary: Returns a rebuilt copy of the given file.
           description: Returns a copy of the file rebuilt by the Glasswall Engine.
