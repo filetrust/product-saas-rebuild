@@ -7,7 +7,7 @@
       - url: https://24dyhnzh5h.execute-api.eu-west-2.amazonaws.com/Beta/az/
         description: AWS
     paths:
-      /fileanalysis/analyse:
+      /filerebuild/rebuild:
         post:
           summary: Returns a rebuilt copy of the given file.
           description: Returns a copy of the file rebuilt by the Glasswall Engine.
