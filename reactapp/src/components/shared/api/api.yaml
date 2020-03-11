@@ -36,3 +36,5 @@
               description: Success
             '400':
               description: Bad Request
+            '422':
+              description: Unsupported file type
